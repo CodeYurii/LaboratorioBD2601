@@ -1,0 +1,45 @@
+Colunas Cru:
+	Codigo da pessoa,Nome da Pessoa,PIX,Descricao,Nome do Centro de Custo,Codigo da Conta de Classificacao,
+	Nome da Conta de Classificacao,Codigo da Unidade de Negocio,Nome da Unidade de Negocio,Data de competencia,
+	Data de vencimento,Valor a pagar,Codigo da Conta de Origem,Nome da Conta de Origem,Valor de pagamento
+
+Tabelas:
+
+	Pessoas
+		id
+		nome
+		pix
+		codigo
+	
+	Centro_Custo
+		id
+		nome
+		conta
+
+	Conta_Classificacao
+		id
+		nome
+		codigo
+	
+	Unidade_Negocio
+		id
+		nome
+		codigo
+		
+	Conta_Origem
+		id
+		nome
+		codigo
+	
+	Transacoes
+		id
+		id_pessoa
+		id_centro_custo
+		id_unidade_negocio
+		id_conta_classificacao
+		id_conta_origem
+		descricao
+		data_competencia
+		data_vencimento
+		valor_a_pagar
+		valor_pagamento
