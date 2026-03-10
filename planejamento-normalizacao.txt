@@ -14,7 +14,6 @@ Tabelas:
 	Centro_Custo
 		id
 		nome
-		conta
 
 	Conta_Classificacao
 		id
