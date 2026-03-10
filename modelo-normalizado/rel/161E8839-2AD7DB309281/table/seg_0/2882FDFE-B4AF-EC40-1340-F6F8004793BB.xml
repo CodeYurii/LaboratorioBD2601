@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2882FDFE-B4AF-EC40-1340-F6F8004793BB" name="TRN">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>B7EECA8C-D33F-E155-1BE6-5CA0360F48E2</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<abbreviation>TRN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D297BC01-0FA6-53CC-C97A-63EE57631A3B">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da transação.]]></commentInRDBMS>
+<generatorID>2C62066C-CF8E-ADA6-2E1D-4D2647E0838B</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="C6191EB9-EBDB-3203-74D5-10E596FF154A">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da transação]]></commentInRDBMS>
+<generatorID>B1A7EFCC-433C-BEC2-656C-C91AA052F408</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_competencia" id="96F16CFB-7088-30C7-91CC-7722C8965018">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da competência.]]></commentInRDBMS>
+<generatorID>246D5C0D-8EFC-127C-AC57-D83F96CB94F5</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_vencimento" id="9EED508C-B458-D114-4CF8-57520873E4BD">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de vencimento.]]></commentInRDBMS>
+<generatorID>79EB0E18-EF38-5F06-3E18-EE962E7D7A6B</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_a_pagar" id="427E9D90-D8FF-3699-619A-4274F1302004">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor a pagar.]]></commentInRDBMS>
+<generatorID>1D0B2571-705A-4090-9C62-C89AACDE0F73</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagamento" id="0FDDC9DF-6A63-F297-77DB-0853D6BCA9A9">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do pagamento.]]></commentInRDBMS>
+<generatorID>973DB774-3CB7-6080-9800-F99C52F69EF8</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PES_id" id="F80C641F-D810-75FD-4C58-8C89500ACAEC">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>DDE9A904-5CA4-723C-34A1-2E0CD3285861</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69E82999-893B-10AD-8D0C-A6F7D96C9D22" referredColumn="45DE6B83-8FD3-1671-1222-72B9DB8E550E"/>
+</associations>
+</Column>
+<Column name="CNC_id" id="9255C421-609C-2ED5-6865-F506E4952F49">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>D7106EFE-9DA8-E964-6B32-0984189B13D5</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="087C285E-69CA-F1B4-F9A9-E927762EC7B4" referredColumn="847FB8A9-51EB-C8FC-FC22-2CFB88A0ACEC"/>
+</associations>
+</Column>
+<Column name="UNN_id" id="C85F5B3E-654B-C02D-9134-2627A1636C7F">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>CA2BBA3B-7E74-6E5E-3F2D-D22BBB6FFA2A</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24A3B955-33B1-D022-959D-0FFA6171FC0F" referredColumn="76DD83F9-B52E-0925-FA53-78A85385036E"/>
+</associations>
+</Column>
+<Column name="CNO_id" id="33AB6F48-F5DF-B509-C6A9-2A6978724EDC">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>527E71AB-6980-66CC-89FD-A3C458DFB35D</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EAEE091-B4F2-AAB3-F6DD-5C9C7C6CB1CA" referredColumn="A9A61ED3-7801-68F5-335A-67DC1F78937B"/>
+</associations>
+</Column>
+<Column name="CCL_id" id="53EBE69B-6B8C-ABC8-0FBE-B5181D475D9D">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:48:22 UTC</createdTime>
+<generatorID>290F03A5-F084-8802-4930-70696F33514E</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AD03414-41BC-12CF-87DD-12195687613E" referredColumn="84F9CA6B-8A42-4B60-FDEE-95E9464004C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D88396A0-3BCB-56EB-3C29-E3CE0E3C84AF" name="TRN_PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>DC285FFF-3565-1B0A-C213-AC9F2FC2D533</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D297BC01-0FA6-53CC-C97A-63EE57631A3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E4B2558-7F6F-27E7-AD0F-92322BF5E61E" name="TRN_PES_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>169B5D87-7654-CBA8-3457-1BB18A3334D3</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F80C641F-D810-75FD-4C58-8C89500ACAEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="924DD5D8-CBA7-59C2-4427-2E08CE1C79CD" name="TRN_CNC_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>741E4093-38B1-179C-C6F7-01C92749ED64</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9255C421-609C-2ED5-6865-F506E4952F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72D8489B-F3E4-BF1E-4009-CC1A05C653B7" name="TRN_CNO_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>C4D447DA-2291-CFBC-231B-F19C02BC755A</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33AB6F48-F5DF-B509-C6A9-2A6978724EDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="864E02D9-D22C-8D50-ADFF-8E070D3A845C" name="TRN_UNN_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>F58F6500-E501-013A-4712-A89F696F22FE</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C85F5B3E-654B-C02D-9134-2627A1636C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C3C347C-D5FD-D69F-B11D-27571BBAC0AC" name="TRN_CCL_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:48:22 UTC</createdTime>
+<generatorID>2810786A-887F-27B2-EE41-8D540272A8AE</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53EBE69B-6B8C-ABC8-0FBE-B5181D475D9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

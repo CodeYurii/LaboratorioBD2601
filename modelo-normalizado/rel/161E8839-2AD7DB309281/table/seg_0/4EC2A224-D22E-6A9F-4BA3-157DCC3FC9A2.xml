@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EC2A224-D22E-6A9F-4BA3-157DCC3FC9A2" name="PES">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>11A1CCFB-F878-658A-D2AE-5864B3B4CF5B</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<abbreviation>PES</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="45DE6B83-8FD3-1671-1222-72B9DB8E550E">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da pessoa.]]></commentInRDBMS>
+<generatorID>B4C3E292-F900-E303-46B7-BCF8D6C2BDBE</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="9833FB16-B353-1F7E-9794-DE45F16579F4">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da pessoa.]]></commentInRDBMS>
+<generatorID>2C9B9742-FE97-C4CE-3D6A-5F5F4F7E7D78</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod" id="C28302E9-4B6C-5A90-266D-60F0A1693C94">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da pessoa.]]></commentInRDBMS>
+<generatorID>0299785D-2AB4-1B89-7DE4-CA5A2E0712CC</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="0C4AFE52-0B01-4B80-B751-3294954845D8">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>4A77D27C-B4D3-9B38-383B-244B2297E0DB</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="564E9F19-2784-A8D2-D632-2B3E552927E4" name="PES_PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:02 UTC</createdTime>
+<generatorID>EDFD8C88-2D7C-9172-DA93-0B26C28F5491</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45DE6B83-8FD3-1671-1222-72B9DB8E550E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

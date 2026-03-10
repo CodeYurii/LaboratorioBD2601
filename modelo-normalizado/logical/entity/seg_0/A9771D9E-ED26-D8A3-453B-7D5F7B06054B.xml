@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9771D9E-ED26-D8A3-453B-7D5F7B06054B" name="CONTA_CLASSIFICACAO">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:40:33 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CCL</preferredAbbreviation>
+<shortName>CCL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BD6511DB-D06A-8C23-3652-330F531958DE">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:40:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da conta classificação.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="98AB3AB5-0315-99B2-D3AE-6584438C68CB">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:41:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da conta de classificação]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod" id="5543CC2E-FD67-5209-4033-3011599CBABF">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:41:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da conta de classificação]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9730A88C-F080-57EC-423D-8F60B70EAB71" name="CCS PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:41:06 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BD6511DB-D06A-8C23-3652-330F531958DE</newElementsIDs>
+<usedAttributes>
+<attributeRef>BD6511DB-D06A-8C23-3652-330F531958DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

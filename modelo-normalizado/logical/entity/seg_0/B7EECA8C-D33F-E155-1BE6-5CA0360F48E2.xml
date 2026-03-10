@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7EECA8C-D33F-E155-1BE6-5CA0360F48E2" name="TRANSACOES">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:29:15 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TRN</preferredAbbreviation>
+<shortName>TRN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2C62066C-CF8E-ADA6-2E1D-4D2647E0838B">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:29:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da transação.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="B1A7EFCC-433C-BEC2-656C-C91AA052F408">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:30:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da transação]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_competencia" id="246D5C0D-8EFC-127C-AC57-D83F96CB94F5">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:30:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da competência.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_vencimento" id="79EB0E18-EF38-5F06-3E18-EE962E7D7A6B">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de vencimento.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_a_pagar" id="1D0B2571-705A-4090-9C62-C89AACDE0F73">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:31:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor a pagar.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_pagamento" id="973DB774-3CB7-6080-9800-F99C52F69EF8">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:32:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do pagamento.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="DDE9A904-5CA4-723C-34A1-2E0CD3285861">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:36:43 UTC</createdTime>
+<generatorID>169B5D87-7654-CBA8-3457-1BB18A3334D3</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>B4C3E292-F900-E303-46B7-BCF8D6C2BDBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D7106EFE-9DA8-E964-6B32-0984189B13D5">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:39:53 UTC</createdTime>
+<generatorID>741E4093-38B1-179C-C6F7-01C92749ED64</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>9673634B-8AC3-2494-B40C-F181675673B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="CA2BBA3B-7E74-6E5E-3F2D-D22BBB6FFA2A">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:45:12 UTC</createdTime>
+<generatorID>F58F6500-E501-013A-4712-A89F696F22FE</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>F2F0452E-F76B-FB1D-E0C8-C5812AC860B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="527E71AB-6980-66CC-89FD-A3C458DFB35D">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:37 UTC</createdTime>
+<generatorID>C4D447DA-2291-CFBC-231B-F19C02BC755A</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>0FF0E0B3-8508-4A39-BB24-A880D3087B1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="290F03A5-F084-8802-4930-70696F33514E">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:48:17 UTC</createdTime>
+<generatorID>2810786A-887F-27B2-EE41-8D540272A8AE</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>BD6511DB-D06A-8C23-3652-330F531958DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC285FFF-3565-1B0A-C213-AC9F2FC2D533" name="TRN PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:29:45 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2C62066C-CF8E-ADA6-2E1D-4D2647E0838B</newElementsIDs>
+<usedAttributes>
+<attributeRef>2C62066C-CF8E-ADA6-2E1D-4D2647E0838B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

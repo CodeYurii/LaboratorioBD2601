@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CNO X TRN" directorySegmentName="seg_0" id="C4D447DA-2291-CFBC-231B-F19C02BC755A">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:29 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<sourcePk>0C250079-5B35-CCE9-2C7C-D7CB9BBF9F00</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85D1ECCB-BA89-AAED-8D93-37ED6E10589B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7EECA8C-D33F-E155-1BE6-5CA0360F48E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85D1ECCB-BA89-AAED-8D93-37ED6E10589B" name="CONTA_ORIGEM">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:45:40 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CNO</preferredAbbreviation>
+<shortName>CNO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0FF0E0B3-8508-4A39-BB24-A880D3087B1D">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:46:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da conta de origem.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="1B2C9F1A-ECFE-7775-3E46-AB3660800FDF">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:46:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da conta de origem.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod" id="12699E7C-7A09-FD3D-E369-0F2EC7EC01E4">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:46:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da conta de origem.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C250079-5B35-CCE9-2C7C-D7CB9BBF9F00" name="CNO PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:46:19 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0FF0E0B3-8508-4A39-BB24-A880D3087B1D</newElementsIDs>
+<usedAttributes>
+<attributeRef>0FF0E0B3-8508-4A39-BB24-A880D3087B1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

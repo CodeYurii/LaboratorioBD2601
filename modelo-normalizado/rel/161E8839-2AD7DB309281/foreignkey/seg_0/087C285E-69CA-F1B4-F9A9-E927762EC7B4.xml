@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="087C285E-69CA-F1B4-F9A9-E927762EC7B4" containerWithKeyObject="2882FDFE-B4AF-EC40-1340-F6F8004793BB" localFKIndex="924DD5D8-CBA7-59C2-4427-2E08CE1C79CD" name="TRN_CNC_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>741E4093-38B1-179C-C6F7-01C92749ED64</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<referredTableLongName>CNC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADBC23F9-6AFE-6739-4771-E80CFF750DED</referredTableID>
+<keyObject>820C9F57-8BDF-F764-0AEF-558983585E0F</keyObject>
+<referredKeyID>820C9F57-8BDF-F764-0AEF-558983585E0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

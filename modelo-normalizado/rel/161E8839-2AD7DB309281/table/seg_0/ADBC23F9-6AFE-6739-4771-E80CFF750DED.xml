@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADBC23F9-6AFE-6739-4771-E80CFF750DED" name="CNC">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>9FA4FD0A-7105-8A6D-827D-9B170811F597</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<abbreviation>CNC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="847FB8A9-51EB-C8FC-FC22-2CFB88A0ACEC">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id centro de custo.]]></commentInRDBMS>
+<generatorID>9673634B-8AC3-2494-B40C-F181675673B2</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="73A75342-08A3-0213-E42E-3688AB649659">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do centro de custo.]]></commentInRDBMS>
+<generatorID>2217FDBD-809B-CB82-4632-13EE9AEDA7D4</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="820C9F57-8BDF-F764-0AEF-558983585E0F" name="CNC_PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>EA2392B6-4DB7-8AF4-F2B6-9FDCD770B741</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847FB8A9-51EB-C8FC-FC22-2CFB88A0ACEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

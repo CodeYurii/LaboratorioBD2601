@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0584B736-7248-BF8A-124F-DF30D301EA17" name="UNIDADE_NEGOCIO">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:43:15 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>UNN</preferredAbbreviation>
+<shortName>UNN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F2F0452E-F76B-FB1D-E0C8-C5812AC860B2">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:43:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da unidade de negócio.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="C1070673-0777-1F43-9B5E-A234B3307A53">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:43:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da unidade de negócio.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod" id="FD5B6D2C-8105-1366-203B-4A82CC16866D">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:44:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da unidade de negócio.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="077E120D-E7D1-CB52-D55F-E1C4F205178C" name="UNN PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:43:39 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F2F0452E-F76B-FB1D-E0C8-C5812AC860B2</newElementsIDs>
+<usedAttributes>
+<attributeRef>F2F0452E-F76B-FB1D-E0C8-C5812AC860B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

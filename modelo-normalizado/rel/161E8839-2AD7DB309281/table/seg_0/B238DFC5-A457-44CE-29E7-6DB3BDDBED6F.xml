@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B238DFC5-A457-44CE-29E7-6DB3BDDBED6F" name="CNO">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>85D1ECCB-BA89-AAED-8D93-37ED6E10589B</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<abbreviation>CNO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9A61ED3-7801-68F5-335A-67DC1F78937B">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da conta de origem.]]></commentInRDBMS>
+<generatorID>0FF0E0B3-8508-4A39-BB24-A880D3087B1D</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="9B1B0881-F4F2-CE9E-7F70-E940ACA9FBD0">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da conta de origem.]]></commentInRDBMS>
+<generatorID>1B2C9F1A-ECFE-7775-3E46-AB3660800FDF</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod" id="AFC7476B-4029-4DF8-27D7-A991D97EBEC6">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da conta de origem.]]></commentInRDBMS>
+<generatorID>12699E7C-7A09-FD3D-E369-0F2EC7EC01E4</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5937F1A-FEE6-DFC4-36D7-A3449EE58E5C" name="CNO_PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>0C250079-5B35-CCE9-2C7C-D7CB9BBF9F00</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9A61ED3-7801-68F5-335A-67DC1F78937B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

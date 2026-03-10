@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UNN X TRN" directorySegmentName="seg_0" id="F58F6500-E501-013A-4712-A89F696F22FE">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:44:49 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<sourcePk>077E120D-E7D1-CB52-D55F-E1C4F205178C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0584B736-7248-BF8A-124F-DF30D301EA17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7EECA8C-D33F-E155-1BE6-5CA0360F48E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

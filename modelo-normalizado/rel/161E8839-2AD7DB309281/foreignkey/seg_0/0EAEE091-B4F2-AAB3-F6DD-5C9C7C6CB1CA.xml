@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EAEE091-B4F2-AAB3-F6DD-5C9C7C6CB1CA" containerWithKeyObject="2882FDFE-B4AF-EC40-1340-F6F8004793BB" localFKIndex="72D8489B-F3E4-BF1E-4009-CC1A05C653B7" name="TRN_CNO_FK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:47:47 UTC</createdTime>
+<generatorID>C4D447DA-2291-CFBC-231B-F19C02BC755A</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<referredTableLongName>CNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B238DFC5-A457-44CE-29E7-6DB3BDDBED6F</referredTableID>
+<keyObject>C5937F1A-FEE6-DFC4-36D7-A3449EE58E5C</keyObject>
+<referredKeyID>C5937F1A-FEE6-DFC4-36D7-A3449EE58E5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

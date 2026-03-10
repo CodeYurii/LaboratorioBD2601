@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11A1CCFB-F878-658A-D2AE-5864B3B4CF5B" name="PESSOAS">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:25:38 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PES</preferredAbbreviation>
+<shortName>PES</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B4C3E292-F900-E303-46B7-BCF8D6C2BDBE">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:25:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id da pessoa.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="2C9B9742-FE97-C4CE-3D6A-5F5F4F7E7D78">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da pessoa.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod" id="0299785D-2AB4-1B89-7DE4-CA5A2E0712CC">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:26:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da pessoa.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="4A77D27C-B4D3-9B38-383B-244B2297E0DB">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:36:30 UTC</createdTime>
+<generatorID>169B5D87-7654-CBA8-3457-1BB18A3334D3</generatorID>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<referedAttribute>B4C3E292-F900-E303-46B7-BCF8D6C2BDBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDFD8C88-2D7C-9172-DA93-0B26C28F5491" name="PES PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:26:06 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B4C3E292-F900-E303-46B7-BCF8D6C2BDBE</newElementsIDs>
+<usedAttributes>
+<attributeRef>B4C3E292-F900-E303-46B7-BCF8D6C2BDBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

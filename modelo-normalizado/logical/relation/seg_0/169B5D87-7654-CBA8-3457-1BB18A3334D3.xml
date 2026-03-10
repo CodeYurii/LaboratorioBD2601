@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PES X TRN" directorySegmentName="seg_0" id="169B5D87-7654-CBA8-3457-1BB18A3334D3">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:34:24 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<sourcePk>EDFD8C88-2D7C-9172-DA93-0B26C28F5491</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11A1CCFB-F878-658A-D2AE-5864B3B4CF5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7EECA8C-D33F-E155-1BE6-5CA0360F48E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

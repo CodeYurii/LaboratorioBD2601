@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FA4FD0A-7105-8A6D-827D-9B170811F597" name="CENTRO_CUSTO">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:31 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CNC</preferredAbbreviation>
+<shortName>CNC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9673634B-8AC3-2494-B40C-F181675673B2">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:38:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id centro de custo.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="2217FDBD-809B-CB82-4632-13EE9AEDA7D4">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:39:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do centro de custo.]]></commentInRDBMS>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA2392B6-4DB7-8AF4-F2B6-9FDCD770B741" name="CNC PK">
+<createdBy>yuris</createdBy>
+<createdTime>2026-03-10 16:39:01 UTC</createdTime>
+<ownerDesignName>modelo-normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="161E8839-F0A6-2486-A1EC-2AD7DB309281" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>9673634B-8AC3-2494-B40C-F181675673B2</newElementsIDs>
+<usedAttributes>
+<attributeRef>9673634B-8AC3-2494-B40C-F181675673B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
